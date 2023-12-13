@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
+
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    height: 80px;
+    background-color: #0e0d0d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+}
+
+.logo {
+    font-size: 33px;
+    color: #fbff00;
+    font-weight: 600;
+}
+
+.menu-links ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu-links ul li {
+    margin: 0.5px;
+}
+
+.menu-links ul li a {
+    color: #fdfdfd;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu-links ul li a:hover,
+.menu-links a.active {
+    background-color: #fbff00;
+    color: #0e0d0d;
+}
+
+/*-- 2nd profile box --*/
+#profile {
+    height: 70vh;
+    background-color: #fdfdfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+    font-weight: 600;
+    gap: 3rem;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.text-display {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.text-display .btn-more {
+    background-color: #0e0d0d;
+    color: #fdfdfd;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 2rem;
+
+}
+
+.text-display  a:hover{
+    background-color: #fdfdfd;
+    color: #0e0d0d;
+    border-color: #fff200;
+    border-style: solid;
+}
